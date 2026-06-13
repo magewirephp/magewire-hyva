@@ -1,5 +1,5 @@
 {
-  "name": "magewirephp/magewire-hyva",
+  "name": "magewirephp/magewire-hyva-theme",
   "description": "Hyvä theme compatibility module for Magewire V3",
   "type": "magento2-module",
   "require": {
@@ -15,7 +15,7 @@
       "src/registration.php"
     ],
     "psr-4": {
-      "Magewirephp\\MagewireHyva\\": "src/"
+      "Magewirephp\\MagewireHyvaTheme\\": "src/"
     }
   }
 }

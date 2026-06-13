@@ -13,10 +13,10 @@
         <!-- REFERENCES -->
         <!-- Disable loading Alpine.js separately through the theme since it is already included with Magewire. -->
         <referenceBlock name="script-alpine-js"
-                        template="Magewirephp_MagewireCompatibilityWithHyva::overwrite/Hyva_Theme/page/js/alpinejs.phtml"
+                        template="Magewirephp_MagewireHyvaTheme::overwrite/Hyva_Theme/page/js/alpinejs.phtml"
         >
             <block name="script-alpine-js-script"
-                   template="Magewirephp_MagewireCompatibilityWithHyva::script.phtml"
+                   template="Magewirephp_MagewireHyvaTheme::script.phtml"
                    after="-"
             >
                 <block name="script-alpine-js-original"
@@ -28,16 +28,16 @@
         <referenceContainer name="magewire.features">
             <!-- Make the flash messages feature compatible with the Hyvä theme. -->
             <block name="magewire.features.support-magento-flash-messages"
-                   template="Magewirephp_MagewireCompatibilityWithHyva::magewire-features/support-magento-flash-messages/support-magento-flash-messages.phtml"
+                   template="Magewirephp_MagewireHyvaTheme::magewire-features/support-magento-flash-messages/support-magento-flash-messages.phtml"
             />
         </referenceContainer>
 
         <referenceContainer name="magewire.internal.backwards-compatibility">
             <block name="magewire.internal.backwards-compatibility.emits"
-                   template="Magewirephp_MagewireCompatibilityWithHyva::js/magewire/internal/backwards-compatibility-emits.phtml"
+                   template="Magewirephp_MagewireHyvaTheme::js/magewire/internal/backwards-compatibility-emits.phtml"
             />
             <block name="magewire.internal.backwards-compatibility.events"
-                   template="Magewirephp_MagewireCompatibilityWithHyva::js/magewire/internal/backwards-compatibility-events.phtml"
+                   template="Magewirephp_MagewireHyvaTheme::js/magewire/internal/backwards-compatibility-events.phtml"
             />
         </referenceContainer>
     </body>

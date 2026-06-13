@@ -7,7 +7,7 @@
             <!-- Magewire features registration. -->
             <argument name="items" xsi:type="array">
                 <item name="hyva_checkout_backwards_compatibility" xsi:type="array">
-                    <item name="type" xsi:type="string">Magewirephp\MagewireHyva\Magewire\Features\SupportHyvaCheckoutBackwardsCompatibility\SupportHyvaCheckoutBackwardsCompatibility</item>
+                    <item name="type" xsi:type="string">Magewirephp\MagewireHyvaTheme\Magewire\Features\SupportHyvaCheckoutBackwardsCompatibility\SupportHyvaCheckoutBackwardsCompatibility</item>
                     <item name="sort_order" xsi:type="number">99200</item>
                     <item name="sequence" xsi:type="array">
                         <item name="magewire_backwards_compatibility" xsi:type="boolean">true</item>

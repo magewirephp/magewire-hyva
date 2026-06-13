@@ -11,4 +11,4 @@ declare(strict_types=1);
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magewirephp_MagewireCompatibilityWithHyva', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magewirephp_MagewireHyvaTheme', __DIR__);

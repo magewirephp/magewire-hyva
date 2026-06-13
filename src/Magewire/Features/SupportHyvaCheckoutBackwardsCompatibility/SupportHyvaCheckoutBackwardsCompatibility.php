@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Magewirephp\MagewireHyva\Magewire\Features\SupportHyvaCheckoutBackwardsCompatibility;
+namespace Magewirephp\MagewireHyvaTheme\Magewire\Features\SupportHyvaCheckoutBackwardsCompatibility;
 
 use Hyva\Checkout\Magewire\Checkout\AddressView\AbstractMagewireAddressForm;
 use Magewirephp\Magewire\Component;

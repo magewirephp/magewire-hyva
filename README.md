@@ -43,15 +43,14 @@ Frontend JS then reads the flag to migrate `wire:model` directives and make `ent
 
 - `magewirephp/magewire` `>=3.2`
 - `Hyva_Theme`
-- `Hyva_Checkout` (for the checkout backwards-compatibility feature)
 
 The module declares a `sequence` after `Magewirephp_Magewire`, `Hyva_Theme`, and `Hyva_Checkout`.
 
 ## Installation
 
 ```bash
-composer require hyva-themes/magento2-hyva-checkout
-bin/magento module:enable Magewirephp_MagewireCompatibilityWithHyva
+composer require magewirephp/magewire-hyva-theme
+bin/magento module:enable Magewirephp_MagewireHyvaTheme
 bin/magento setup:upgrade
 ```
 

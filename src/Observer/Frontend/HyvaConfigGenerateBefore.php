@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Magewirephp\MagewireHyva\Observer\Frontend;
+namespace Magewirephp\MagewireHyvaTheme\Observer\Frontend;
 
 use Magento\Framework\Component\ComponentRegistrar;
 use Magento\Framework\Event\Observer;

@@ -5,7 +5,7 @@
     <body>
         <referenceContainer name="magewire.internal.backwards-compatibility">
             <block name="magewire.internal.backwards-compatibility.events"
-                   template="Magewirephp_MagewireCompatibilityWithHyva::js/magewire/internal/backwards-compatibility-events.phtml"
+                   template="Magewirephp_MagewireHyvaTheme::js/magewire/internal/backwards-compatibility-events.phtml"
             />
         </referenceContainer>
     </body>
