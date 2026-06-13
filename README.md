@@ -1,7 +1,5 @@
 # Magewire Compatibility with Hyvä
 
-[![Latest Stable Version](http://poser.pugx.org/hyva-themes/magento2-hyva-checkout/v)](https://packagist.org/packages/hyva-themes/magento2-hyva-checkout)
-[![License](http://poser.pugx.org/hyva-themes/magento2-hyva-checkout/license)](https://packagist.org/packages/hyva-themes/magento2-hyva-checkout)
 [![Mago](https://github.com/magewirephp/magewire-hyva/actions/workflows/mago.yml/badge.svg?branch=main)](https://github.com/magewirephp/magewire-hyva/actions/workflows/mago.yml)
 
 > Makes [Magewire](https://github.com/magewirephp/magewire) feel native to the Hyvä theme — so reactive, server-driven components just work, without writing JavaScript.
