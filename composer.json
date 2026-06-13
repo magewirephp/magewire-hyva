@@ -1,5 +1,5 @@
 {
-  "name": "hyva-themes/magento2-hyva-checkout",
+  "name": "magewirephp/magewire-hyva",
   "description": "Hyvä theme compatibility module for Magewire V3",
   "type": "magento2-module",
   "require": {
