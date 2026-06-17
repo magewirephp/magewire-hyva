@@ -9,6 +9,11 @@
               destination="magewire.alpinejs.load"
               before="-"
         />
+        <!-- Legacy container: not rendered by default. Themes can inject it into a destination as needed (here, placed before all siblings in "magewire.after"). -->
+        <move element="magewire.legacy"
+              destination="magewire.after"
+              before="-"
+        />
 
         <!-- REFERENCES -->
         <!-- Disable loading Alpine.js separately through the theme since it is already included with Magewire. -->
